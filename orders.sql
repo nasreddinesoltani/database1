@@ -1,0 +1,12 @@
+use CheckpointDQL;
+insert into Orders values (01,02,NULL,2,9198);
+insert into Orders values (02,01,STR_TO_DATE("May 28 2020", "%M %d %Y"),1,3299);
+insert into Orders values (02,04,STR_TO_DATE("May 28 2020", "%M %d %Y"),1,300);
+insert into Orders values (02,05,STR_TO_DATE("May 28 2020", "%M %d %Y"),1,20);
+insert into Orders values (03,04,STR_TO_DATE("May 08 2024", "%M %d %Y"),1,300);
+insert into Orders values (04,04,STR_TO_DATE("May 18 2023", "%M %d %Y"),2,600);
+insert into Orders values (05,05,STR_TO_DATE("May 28 2021", "%M %d %Y"),2,40);
+insert into Orders values (06,05,STR_TO_DATE("May 28 2022", "%M %d %Y"),1,20);
+insert into Orders values (10,03,STR_TO_DATE("May 12 2024", "%M %d %Y"),1,8000);
+insert into Orders values (07,07,STR_TO_DATE("Jun 28 2023", "%M %d %Y"),1,88);
+SELECT * FROM Orders;
